@@ -1,7 +1,3 @@
-#first command shell producing an output hello world, I'm in ISD class right now
-print ("hello world")
-print ("I'm in ISD class right now")
-
 #second command shell asking for the user's name with an output how are you?
 username= ""
 username= input ("What is your username? ")
