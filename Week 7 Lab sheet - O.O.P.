@@ -1,16 +1,15 @@
-#Create Student Class
-class Student():
-    #Constructor
-    def __init__(self, firstname="", lastname="", studentId="", course=""):
-        self.firstname = firstname
-        self.lastname = lastname
-        self.studentId = studentId
-        self.course = course
+#searches for the file called 'student' and imports it all.
+from student import *
 
-    def showDetails(self):
-        print ("Firstname\t", self.firstname)
-        print ("Lastname\t", self.lastname)
-        print ("StudentID\t", self.studentId)
-        print ("course\t", self.course)
+s0 = Student()
+s1 = Student("Louise", "Businge", 21288244, "ASE")
+s2 = Student("Taylor", "Pearson", 21344533, "EEE")
+s3 = Student("Shawn", "Jefferies", 21356838, "MT")
+
+#p goes through the list of students and prints it all.
+students = [s0, s1, s2, s3]
+for p in students:
+    print()
+    p.showDetails()
 
     
