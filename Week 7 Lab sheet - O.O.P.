@@ -1,0 +1,16 @@
+#Create Student Class
+class Student():
+    #Constructor
+    def __init__(self, firstname="", lastname="", studentId="", course=""):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.studentId = studentId
+        self.course = course
+
+    def showDetails(self):
+        print ("Firstname\t", self.firstname)
+        print ("Lastname\t", self.lastname)
+        print ("StudentID\t", self.studentId)
+        print ("course\t", self.course)
+
+    
